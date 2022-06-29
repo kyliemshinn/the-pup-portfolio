@@ -1,0 +1,11 @@
+ul {
+    margin-left: auto;
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    padding: 6px;
+}
