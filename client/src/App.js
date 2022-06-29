@@ -2,6 +2,7 @@
 import React from 'react';
 import Profile from './pages/Profile';
 import Home from './pages/Home';
+import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/profile' element={<Profile />} />
     </Routes>
+    <Footer />
     </div>
     </Router>
   );
