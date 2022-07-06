@@ -9,19 +9,22 @@ import clyde5 from "../images/clyde5.jpg";
 const clyde = [clyde1, clyde2, clyde3, clyde4, clyde5];
 
 const Carousel = () => {
-    return (
-        <div className="carousel">
+  return (
+    <div>
+      <div>
         <SimpleImageSlider
           width="100vw"
-          height="70vh"
-          loop= {true}
-          autoPlay= {true}
+          height="50vh"
+          loop={true}
+          autoPlay={true}
           showBullets={false}
           images={clyde}
+          overflow="hidden"
           className="slider"
-          style={{ margin: '0 auto', height: 'auto' }}
+          // style={{ margin: "0 auto", height: "auto" }}
         />
       </div>
-    )
-}
- export default Carousel;
+    </div>
+  );
+};
+export default Carousel;

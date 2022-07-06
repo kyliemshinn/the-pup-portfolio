@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <nav className="navbar bg-light">
-        <div className="container-fluid">
+        <div className="container-fluid col d-flex justify-content-center">
           <span className="navbar-brand mb-0 h1 footerSocials align-middle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
