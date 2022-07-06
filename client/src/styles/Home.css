@@ -1,0 +1,33 @@
+.about-title {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 5px;
+    padding-top: 50px;
+  }
+  .aboutparents-bg {
+    background-color: #dfdfde;
+    text-align: center;
+  }
+  
+  .about-photo {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 70vh;
+  }
+  
+  .bioText {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+  
+  .bio {
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    font-size: medium;
+  }
+  .bio-card {
+    background-color: #dfdfde;
+  }

@@ -1,13 +1,14 @@
 import React from "react";
+import famPicture from '../images/famPicture.jpg';
 
 function MeetParents() {
   return (
     <div id="about my-5">
       <div className="row">
         <div className="col-md aboutparents-bg">
-          <img src="#" className="img-fluid" alt="Clyde Parents"></img>
+          <img src={famPicture} className="img-fluid about-photo" alt="Clyde Parents" ></img>
         </div>
-        <div className="col-md bio-card">
+        <div className="col-md bio-card secondary">
           <h3 className="about-title mt-4">ABOUT THE PARENTS</h3>
           <div className="row bioText">
             <p className="bio">
