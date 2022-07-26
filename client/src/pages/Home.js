@@ -1,8 +1,8 @@
 import React from "react";
-// import Carousel from "../components/Carousel";
 import BlogCard from "../components/Cards/BlogCard";
+import Carousel from "../components/Carousel";
 import MeetParents from "../components/MeetParents";
-import Clyde4 from "../images/clyde4.jpg";
+// import Clyde4 from "../images/clyde4.jpg";
 import "../styles/Home.css";
 
 function Home() {
@@ -11,18 +11,19 @@ function Home() {
       {/* <Carousel /> */}
       <div className="headerCard row">
         <div className="col headerImage">
-          <img src={Clyde4} className="clydeImage" alt="Clyde" />
+          {/* <img src={Clyde4} className="clydeImage" alt="Clyde" /> */}
+          <Carousel />
         </div>
 
-        <div className="col headerTxt p-4 w-75">
-          <h3 className="fs-2">
-            Hello & Welcome! My name is Clyde. This is a page dedicated to
-            helping my fellow dog friends how to live my lifestyle, and trust
-            me, you want to. Get a deeper dive into my brain (this is very
-            exclusive stuff)! Come along the journey with me and explore what it
-            means to be THE Clyde Lewis in real time. You won't regret it.
-          </h3>
-          <h4>Need more of me? Follow me on Tik Tok and Instagram!</h4>
+        <div className="col headerTxt p-4 w-75 d-block m-auto">
+          <h1 className="block-center lh-lg display-2"> Hello & Welcome, Friends!</h1>
+          <h2 className="lh-sm display-6">
+            Come explore how to live my lifestyle- and trust me, you want to. Get a
+            deeper dive into the brain of Clyde (this is very exclusive stuff)! You won't
+            regret it.
+          </h2>
+          <h3 className="lh-lg">Need more of me? Follow me on Tik Tok and Instagram!</h3>
+          <button className="btn btn-secondary" >Explore</button>
         </div>
       </div>
       <BlogCard />

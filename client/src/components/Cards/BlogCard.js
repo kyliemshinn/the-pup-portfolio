@@ -5,7 +5,7 @@ const BlogCard = () => {
     <div className="row my-5 blog-cards">
       <div className="col-sm-3 h-50">
         <div className="card">
-          <div class="card-body">
+          <div className="card-body">
             <h3>Why I Became A Vegetarian</h3>
             <p>
               Explore all the reasons I switched my diet to Vegetarian and how
@@ -19,7 +19,7 @@ const BlogCard = () => {
 
       <div className="col-sm-3 h-50">
         <div className="card mt-50">
-          <div class="card-body">
+          <div className="card-body">
             <h3>
               How To Get Your Humans To Take You To The Park When They Don't
               Want To
@@ -37,7 +37,7 @@ const BlogCard = () => {
 
       <div className="col-sm-3 h-50">
         <div className="card">
-          <div class="card-body">
+          <div className="card-body">
             <h3>Get Potty Trained With Me, Clyde!</h3>
             <p>
               Now this is a tough subject (it took me a while to get the hang of
@@ -51,7 +51,7 @@ const BlogCard = () => {
 
       <div className="col-sm-3 h-50">
         <div className="card">
-          <div class="card-body">
+          <div className="card-body">
             <h3>My Favorite Toys</h3>
             <p>
               Oh My! How can I even choose! I have many toys so lets explore all

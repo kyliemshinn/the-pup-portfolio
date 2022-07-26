@@ -13,8 +13,8 @@ const Carousel = () => {
     <div>
       <div>
         <SimpleImageSlider
-          width="100vw"
-          height="50vh"
+          width="45vw"
+          height="70vh"
           loop={true}
           autoPlay={true}
           showBullets={false}
