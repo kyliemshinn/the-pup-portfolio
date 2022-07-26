@@ -15,18 +15,14 @@ function Home() {
         </div>
 
         <div className="col headerTxt p-4 w-75">
-          <h3 >
+          <h3 className="fs-2">
             Hello & Welcome! My name is Clyde. This is a page dedicated to
-            helping my fellow dog friends
+            helping my fellow dog friends how to live my lifestyle, and trust
+            me, you want to. Get a deeper dive into my brain (this is very
+            exclusive stuff)! Come along the journey with me and explore what it
+            means to be THE Clyde Lewis in real time. You won't regret it.
           </h3>
-          <h3 >
-            with just about anything you can think of related DOG. Get a deeper
-            dive into my brain!
-          </h3>
-          <h3 >
-            Come along the journey with me and explore what it means to be THE
-            Clyde Lewis. You won't regret it.
-          </h3>
+          <h4>Need more of me? Follow me on Tik Tok and Instagram!</h4>
         </div>
       </div>
       <BlogCard />

@@ -1,3 +1,36 @@
+/* header card styling */
+.home {
+  background-color: #efeff5;
+}
+.headerCard {
+  margin: 50px;
+}
+.clydeImage {
+  height: 70vh;
+  width: 50vw;
+}
+
+.headerTxt {
+  color: rgb(8, 5, 5);
+  position: absolute;
+  top: 450px;
+  /* background-color: grey;
+  opacity: 0.5; */
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  padding: 10px;
+}
+.headerImage {
+  width: 80vw;
+  margin: 20vw 50vw;
+  height: 210px;
+}
+.blog-cards {
+  padding-top: 100px;
+  margin: 20px;
+  margin-top: 1000px;
+}
+
 /* meet the parents styling */
 .about-title {
   text-align: center;
@@ -31,27 +64,4 @@
 }
 .bio-card {
   background-color: #dfdfde;
-}
-
-/* header card styling */
-.clydeImage {
-  height: 80vh;
-  width: 50vw;
-}
-
-.headerTxt {
-  color: white;
-  position: absolute;
-  top: 500px;
-  background-color: grey;
-  opacity: 0.5;
-}
-.headerImage {
-  width: 80vw;
-  margin: 20vw 50vw;
-  height: 210px;
-}
-.blog-cards {
-  padding-top: 100px;
-  margin: 20px;
 }

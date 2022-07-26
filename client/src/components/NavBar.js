@@ -5,8 +5,8 @@ import "../styles/NavBar.css";
 
 const NavBar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-light">
+    <div className="navBar">
+      <nav className="navbar navbar-expand-lg navBar">
         <img src={Logo} alt="Logo" height="150px" width="150px" />
         <div className="container-fluid">
           <ul className="navbar-nav">

@@ -18,7 +18,7 @@ const BlogCard = () => {
       </div>
 
       <div className="col-sm-3 h-50">
-        <div className="card">
+        <div className="card mt-50">
           <div class="card-body">
             <h3>
               How To Get Your Humans To Take You To The Park When They Don't
